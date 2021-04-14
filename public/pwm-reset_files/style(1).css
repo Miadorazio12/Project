@@ -1,0 +1,201 @@
+/*
+ * Password Management Servlets (PWM)
+ * http://code.google.com/p/pwm/
+ *
+ * Copyright (c) 2006-2009 Novell, Inc.
+ * Copyright (c) 2009-2012 The PWM Project
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+/*
+ * Placeholder stylesheet
+ */
+
+body {
+	background: white;
+
+}
+
+#header {
+        width: 100%;
+        height: 180px;
+        margin: 0;
+		position: relative;
+		background: /*#9E9334*/ #00468C;
+}
+
+#header-company-logo {
+        position: relative;
+		width: 100%;
+		height: 150px;
+        background: white url('logo-sm.png') no-repeat top center;
+        /*background-size:36%;*/
+        z-index: 1;
+}
+
+#centerbody {
+        background-color: white  /*#e3e1db*/;
+        padding: 10px 10px 40px 10px;
+        border-radius: 5px;
+        border-style:solid;
+        border-color: #00468C;
+        border-width:3px;
+	    margin-top: 20px;	
+}
+
+#header-page {
+	float: left;
+	margin-left: -310px;
+	left: 50%;	
+	position: relative;
+	font-size: 14pt;
+    font-family:Trebuchet MS, sans-serif;
+	margin-top: -8px;
+}
+
+#header-title {
+	float: left;
+	position: relative;
+	margin-left: -140px;
+	left: 50%;
+	font-size: 13pt;
+	margin-top: 3px;
+    font-family:Trebuchet MS, sans-serif;	
+}
+
+.menubutton {
+    border-top-color: #070618;
+    background: #9E9334;
+    background: -webkit-gradient(linear, left top, left bottom, from(#717081), to(#070618));
+    background: -webkit-linear-gradient(top, #D8D4AE, #C5BE85);
+    background: -moz-linear-gradient(top, #D8D4AE, #C5BE85);
+    background: -ms-linear-gradient(top, #D8D4AE, #C5BE85);
+    background: -o-linear-gradient(top, #D8D4AE, #C5BE85);
+    color: #ccc;
+    border: 0;
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.menubutton:hover {
+    background: #9E9334;
+    border: 0;
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+}
+.menubutton:active {
+    border-top-color: #9E9334;
+    background: #9E9334;
+}
+
+
+
+
+
+
+.message {
+        background-color: #eeeeee;
+}
+
+.message-info {
+        background-color: #b6ccdb;
+}
+
+.message-error {
+        background-color: #ffcccc;
+}
+
+.message-success {
+        background-color: #70c1f9;
+}
+
+h2{
+    text-align:left;
+    padding-left:120px;
+    margin:0;
+    color:black;
+}
+h4{
+    text-align:center;
+    margin:0;
+   
+}
+.btn {
+    border-top-color: #070618;
+    background: #9E9334;
+    background: -webkit-gradient(linear, left top, left bottom, from(#717081), to(#070618));
+    background: -webkit-linear-gradient(top, #D8D4AE, #BBB371);
+    background: -moz-linear-gradient(top, #D8D4AE, #BBB371);
+    background: -ms-linear-gradient(top, #D8D4AE, #BBB371);
+    background: -o-linear-gradient(top, #D8D4AE, #BBB371);
+    color: #ccc;
+    border: 0;
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.btn:hover {
+    background: #9E9334;
+    border: 0;
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+}
+.btn:active {
+    border-top-color: #9E9334;
+    background: #9E9334;
+}

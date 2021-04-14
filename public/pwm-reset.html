@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html dir="ltr" class="dj_webkit dj_chrome dj_contentbox"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>My Macomb Password Self Service</title>
+    
+    <meta name="application-name" content="PWM Password Self Service" data-pwm-instance="6E7D815DFA04AF24">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7">
+    <link rel="icon" type="image/x-icon" href="https://pwm.macomb.edu/public/resources/nonce-kmt2g1jw/favicon.ico">
+    <link href="./pwm-reset_files/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link media="only screen and (max-device-width: 480px)" href="./pwm-reset_files/mobileStyle.css" type="text/css" rel="stylesheet"><link href="./pwm-reset_files/font-awesome.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="./pwm-reset_files/style(1).css" rel="stylesheet" type="text/css" media="screen">
+    <link media="only screen and (max-device-width: 480px)" href="./pwm-reset_files/mobileStyle(1).css" type="text/css" rel="stylesheet"><link href="./pwm-reset_files/nihilo.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body onload="pwmPageLoadHandler();" class="nihilo">
+<script type="text/javascript" defer="defer" src="./pwm-reset_files/changepassword.js.download"></script>
+<div id="wrapper">
+    <div id="header">
+    <div id="header-company-logo">
+        </div>
+    <div style="position: absolute; text-align:left; border-width:0; top: 19px; left:18px;">
+        <br></div>
+    <div style="position: absolute; text-align:right; border-width:0; top: 19px; right:50px;">
+        <div style="visibility: inline" id="homebuttonDiv">
+            <a id="HomeButton" style="margin-left: auto" href="https://pwm.macomb.edu/" title="Home">
+            </a>
+        </div>
+    </div>
+    <div style="position: absolute; text-align:right; border-width:0; top: 19px; right:18px;">
+        <div style="visibility: inline" id="logoutDiv">
+            <a id="LogoutButton" style="margin-left: auto" href="https://pwm.macomb.edu/public/Logout" title="Logout">
+            </a>
+        </div>
+    </div>
+    <div id="header-right-logo" style="position: absolute">
+    </div>
+    <div id="header-page">Change Password</div>
+    <div id="header-title">My Macomb Password Self Service</div>
+</div>
+
+<script type="text/javascript">
+    
+</script>
+<div id="centerbody">
+        Please change your password. Keep your new password secure.  After you type your new password, click the Change Password button.  If you must write it down, be sure to keep it in a safe place.  Your new password must meet the following requirements:<div id="PasswordRequirements">
+            <ul>
+                <li>Password is case sensitive.</li><li>Must be at least 7 characters long.</li><li>Must not include any of the following values:  test password</li><li>Must not include part of your name or username.</li><li>Must not include a common word or commonly used sequence of characters.</li><li>Must have at least three types of the following characters: <ul><li>Uppercase (A-Z)</li><li>Lowercase (a-z)</li><li>Number (0-9)</li><li>Symbol (!, #, $, etc.)</li></ul></li></ul>
+        </div>
+        <br>
+
+<form method="post" action="/post-test">
+            <table style="border:0">
+                <tbody><tr>
+                    <td style="border:0; width:75%">
+                        <h2><label for="User ID">User ID</label></h2>
+                        <input name="user_id" id="user_id" class="changepasswordfield" autofocus=""><div class="icon-eye icon-eye-open" style="cursor: pointer; visibility: hidden;"></div>
+                    </td>
+                    <td style="border:0; width:10%">&nbsp;</td>
+                </tr><tr>
+                    <td style="border:0; width:75%">
+                        <h2><label for="Old Password">Old Password</label></h2>
+                        <input type="password" name="password1" id="password1" class="changepasswordfield" autofocus=""><div class="icon-eye icon-eye-open" id="password1-eye-icon" style="cursor: pointer; visibility: hidden;"></div>
+                    </td>
+                </tr><tr>
+                    <td style="border:0; width:75%">
+                        <h2><label for="password1">New Password</label></h2>
+                        <input type="password" name="password13" id="password2" class="changepasswordfield" autofocus=""><div class="icon-eye icon-eye-open" id="password1-eye-icon" style="cursor: pointer; visibility: hidden;"></div>
+                    </td>
+                    <td style="border:0; width:10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="border:0; width:75%">
+                        <h2><label for="password2">Confirm Password</label></h2>
+                        <input type="password" name="password2" id="password2" class="changepasswordfield"><div class="icon-eye icon-eye-open" id="password2-eye-icon" style="cursor: pointer; visibility: hidden;"></div>
+                    </td>
+                    <td style="border:0; width:15%">
+                        <div style="padding-top:45px;">
+                            <img style="visibility:hidden;" id="confirmCheckMark" alt="checkMark" height="15" width="15" src="./pwm-reset_files/greenCheck.png">
+                            <img style="visibility:hidden;" id="confirmCrossMark" alt="crossMark" height="15" width="15" src="./pwm-reset_files/redX.png">
+                        </div>
+                    </td>
+                    <td style="border:0; width:10%">&nbsp;</td>
+                </tr>
+            </tbody></table>
+            <div id="buttonbar" style="width:100%">
+                <input type="hidden" name="processAction" value="change">
+                <input type="submit" name="change" class="btn" id="password_button" value="Change Password">
+                <input type="reset" name="reset" class="btn" value="Clear">
+                <button style="visibility: visible;" name="button" class="btn" id="button_cancel" onclick="handleFormCancel();return false">
+                    Cancel</button>
+                <input type="hidden" name="pwmFormID" id="pwmFormID" value="KCjdLHgWU1DZcuWQGaS2Yym6fENrMKTu178cc24b164emhij2">
+            </div>
+        </form>
+    </div>
+    <div class="push"></div>
+</div>
+<div id="footer">
+    <div id="footer-content">
+        <span class="infotext">
+            &nbsp;
+        </span>
+        <div>
+            1116198
+            &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+            <span id="idle_wrapper">
+            <span id="idle_status">Idle Timeout: 4 minutes</span>
+            &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+            </span>
+            <span id="localeSelectionMenu" style="white-space: nowrap" _dijitmenudijit_menu_0="1">
+            <img alt="flag" src="./pwm-reset_files/us.png">
+            &nbsp;English</span>
+        </div>
+        </div>
+</div>
+
+
+
+
+</body></html>
