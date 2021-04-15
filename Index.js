@@ -35,5 +35,11 @@ app.post('/post-test', (req, res) => {
       });  
 });
 var server = https.createServer(options, app);
-server.listen(3000);
+var httpServer = http.createServer(app);
+httpServer.listen(8080, () => {
+    console.log("Http server listing on port : " + 8080)
+  });
+server.listen(3001, () => {
+    console.log("Https server listing on port : " + 3001)
+});
 
