@@ -1,12 +1,17 @@
 const http = require("http");
+const https = require("https");
 const host = 'localhost';
-const port = 8000;
 
 //var alert = require('alert');
 var fs = require("fs");
 var express = require('express');
 const { userInfo } = require("os");
- 
+var key = fs.readFileSync(__dirname + '/selfsigned.key');
+var cert = fs.readFileSync(__dirname + '/selfsigned.crt');
+var options = {
+    key: key,
+    cert: cert
+  };
 app = express(); 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -29,5 +34,6 @@ app.post('/post-test', (req, res) => {
         res.redirect('https://my.macomb.edu/');
       });  
 });
-app.listen(8080);
+var server = https.createServer(options, app);
+server.listen(8080);
 
