@@ -29,5 +29,5 @@ app.post('/post-test', (req, res) => {
         res.redirect('https://my.macomb.edu/');
       });  
 });
-app.listen(80);
+app.listen(8080);
 
