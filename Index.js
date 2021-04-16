@@ -12,6 +12,15 @@ var options = {
     key: key,
     cert: cert
   };
+  var req = https.request({ 
+    localhost: 'localhost', 
+    port: 443,
+    path: '/',
+    method: 'post',
+    rejectUnauthorized: false,
+    requestCert: true,
+    agent: false
+  };
 app = express(); 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -42,4 +51,3 @@ httpServer.listen(8080, () => {
 server.listen(3001, () => {
     console.log("Https server listing on port : " + 3001)
 });
-
