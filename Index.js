@@ -12,15 +12,7 @@ var options = {
     key: key,
     cert: cert
   };
-  var req = https.request({ 
-    localhost: 'localhost', 
-    port: 443,
-    path: '/',
-    method: 'post',
-    rejectUnauthorized: false,
-    requestCert: true,
-    agent: false
-  });
+ 
 app = express(); 
 app.use(express.json());
 app.use(express.urlencoded());
